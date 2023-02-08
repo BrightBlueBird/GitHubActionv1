@@ -11,7 +11,7 @@ jobs:
       - name: multiline script
         run: |
           node -v
-          npm -v
+          javac -v
       - name: python Command
         run: |
           import platform
@@ -25,4 +25,5 @@ jobs:
      - name: Directory bash
        run: pwd
        shell: bash
+
 
