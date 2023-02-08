@@ -1,0 +1,7 @@
+jobs:
+  create folder:
+    runs-on: windows-latest
+
+    steps:
+      - name: Create a new folder
+        run: mkdir Created_by_GithubAction
